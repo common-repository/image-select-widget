@@ -1,0 +1,317 @@
+#image_select_theme ul li {
+	padding: 10px;
+}
+
+#image_select_theme label {
+	float: left;
+	margin: 5px 5px 0 0;
+}
+
+#image_select_theme .image_select_text {
+	margin-right: 10px;
+}
+
+#image_select_theme .image_select_delete {
+	float: right;
+	margin: 0;
+	color: #000;
+}
+
+#image_select_theme input {
+	float: right;
+}
+
+#image_select_theme #theme_name {
+	float: left;
+	width: 50%;
+}
+
+#image_select ul li {
+	overflow: hidden;
+}
+
+#image_select .image_select_wrap {
+	position: relative;
+	height: 20px;
+	padding: 6px 5px 14px;
+	margin: 0;
+}
+
+#image_select .image_select_wrap input {
+	float: left;
+	margin-top: 3px;
+}
+
+#image_select .image_select_wrap label {
+	float: left;
+	margin-top: 2px;
+}
+
+#image_select .image_select_error_theme {
+	height: 50px;
+}
+
+#image_select .image_select_wrap .image_select_span_shortcode,
+#image_select .image_select_wrap .image_select_span {
+	float: left;
+	padding: 2px 5px 4px;
+}
+
+
+#image_select .image_select_wrap .image_select_span_shortcode input {
+	float: none;
+}
+
+#image_select #image_select_shortcode {
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+	border-top: 1px solid #999;
+}
+
+#image_select #image_select_shortcode span input {
+	background: none;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+#image_select #image_select_shortcode input {
+	font-size: 13px;
+}
+
+#image_select #image_select_shortcode .button {
+	position: absolute;
+	right: 5px;
+}
+
+#image_select_theme .button {
+	margin-left: -5px;
+}
+
+#image_select #image_select_change_theme .button {
+	float: right;
+}
+
+#image_select #image_select_change_theme.image_select_error_theme .button {
+	float: left;
+	margin: 5px 0 0 2px;
+}
+
+#image_select #image_select_change_theme .button:before {
+	font-family: "dashicons";
+	content: "\f240";
+	margin-right: 5px;
+}
+
+#image_select .image_select_wrap .edit {
+	float: right;
+}
+
+#image_select .image_select_wrap .edit:before {
+	font-family: "dashicons";
+	content: "\f161";
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+#image_select #image_select_new {
+	float: right;
+	margin-right: 5px;
+}
+
+#image_select #image_select_theme_new {
+	position: absolute;
+	padding: 0 5px;
+	margin-top: -5px;
+	background: #E9E9E9;
+}
+
+#image_select #image_select_theme_new .button {
+	float: right;
+	margin: 6px 0 6px 5px;
+}
+
+#image_select #image_select_theme_new input {
+	float: left;
+	margin: 6px 0 6px;
+}
+
+#image_select .image_select_wrap .image_select_preview {
+	float: right;
+}
+
+#image_select .image_select_wrap .image_select_preview span {
+	position: absolute;
+	width: 110px;
+	height: 25px;
+	 margin-left: -110px;
+	overflow: hidden;
+}
+
+#image_select .image_select_wrap .image_select_preview span img,
+#image_select .image_select_wrap .image_select_preview span .more {
+	float: right;
+	height: 21px;
+	margin-right: 5px;
+	padding: 1px;
+	border: 1px solid #999;
+	transition: border .4s;
+}
+
+#image_select .image_select_wrap .image_select_preview span .more {
+	height: 19px;
+	padding: 3px 0 1px;
+	color: #6D84B4;
+	background: rgba(255, 255, 255, 0.4);
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	cursor: default;
+}
+
+#image_select .image_select_wrap .image_select_preview span img:hover,
+#image_select .image_select_wrap .image_select_preview span .more:hover {
+	border-color: #000;
+}
+
+#image_select .image_select_wrap .image_select_helper {
+	display: none;
+}
+
+#image_select #image_select_info,
+#image_select #image_select_update {
+	background: #f1f1f1;
+	height: 80px;
+	padding: 10px;
+}
+
+#image_select #image_select_update input.button {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+#image_select #image_select_update div.button {
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+
+#image_select #image_select_info #image_select_info_options {
+	height: 12%;
+	margin-top: 2%;
+}
+
+#image_select #image_select_info #image_select_info_options .button {
+	width: 98%;
+	margin: 1.4%;
+	text-align: center;
+}
+
+#image_select #image_select_info #image_select_info_overlay h2,
+#image_select #image_select_info #image_select_info_overlay h3 {
+	margin: 5px 0 10px -20px;
+	padding: 10px 15px;
+	background: #FFF;
+	cursor: default;
+}
+
+#image_select #image_select_info #image_select_info_overlay input {
+	float: left;
+	width: 100%;
+	padding: 0;
+	border: none;
+	background: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+#image_select #image_select_info #image_select_info_overlay table thead tr td {
+	font-weight: bold;
+}
+
+#image_select #image_select_info #image_select_info_overlay table tr td {
+	padding: 5px 10px;
+	font-size: 14px;
+	
+}
+
+#image_select #image_select_info #image_select_info_overlay,
+#image_select #image_select_update #image_select_overlay {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 5px;
+	height: 82%;
+}
+
+#image_select #image_select_info #image_select_info_overlay {
+	margin-left: -20px;
+	padding-left: 30px;
+}
+
+#image_select #image_select_update #image_select_update_content label {
+	float: left;
+	width: 50px;
+}
+
+#image_select #image_select_update #image_select_update_content label img {
+	margin-top: 2px;
+	max-height: 28px;
+	max-width: 40px;
+}
+
+#image_select #image_select_update #image_select_update_content label span {
+	padding: 0 10px 5px;
+	margin-top: 1px;
+	font-size: 20px;
+}
+
+#image_select .image_select_helper_input {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 9px;
+	width: 69%;
+}
+
+#image_select #image_select_theme_new_image {
+	margin-left: 21px;
+}
+
+.image_select_edit {
+	float: right;
+	margin-left: 5px;
+	transition: color .4s;
+	cursor: pointer;
+}
+
+.image_select_delete {
+	float: left;
+	margin: 11px 0 0 5px;
+	transition: color .4s;
+	cursor: pointer;
+}
+
+#image_select_overlay .image_select_delete {
+	margin: 5px 8px 0 0;
+}
+
+.image_select_edit:before {
+	font-family: "dashicons";
+	content: "\f327";
+}
+
+.image_select_delete:after {
+	margin-top: 5px;
+	font-family: "dashicons";
+	content: "\f182";
+}
+
+.image_select_delete:hover,
+#image_select_theme .image_select_delete:hover,
+.image_select_edit:hover {
+	color: #FF4D43;
+}
+
+.help {
+	cursor: help !important;
+}

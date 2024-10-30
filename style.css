@@ -1,0 +1,34 @@
+.image-select a:focus,
+#lightbox #imageDetails a:focus {
+	outline: none;
+}
+
+/*
+#lightbox #imageDetails a:hover {
+	text-decoration: none;
+}
+*/
+
+.image-select {
+	margin-left: -8px;
+	padding: 8px;
+}
+
+.image-select a img {
+	padding: 5px;
+	margin: 8px 10px 8px 0;
+	border: 1px solid #cdcdce;
+	
+	-webkit-box-shadow: 1px -1px 8px rgba(80, 80, 80, 0.8);
+	-moz-box-shadow:    1px -1px 8px rgba(80, 80, 80, 0.8);
+	box-shadow:         1px -1px 8px rgba(80, 80, 80, 0.8);
+	
+	transition: border .4s linear;
+	
+	overflow: hidden;
+}
+
+.image-select a img:hover {
+	border-color: #343434;
+}
+
